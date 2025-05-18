@@ -1,7 +1,9 @@
+import ProbeChart from "@/components/ProbeChart";
+
 export default function Home() {
   return (
     <main>
-      <div>Hello world!</div>
+        <ProbeChart/>
     </main>
   );
 }
