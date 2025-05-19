@@ -8,10 +8,9 @@ export interface DataPoint {
 export type ApiResponse = DataPoint[];
 
 export async function GET() {
-    // sleep for 1.2 seconds to simulate delay
+    // sleep for 1.2 seconds to see the loading state for longer
     await new Promise(resolve => setTimeout(resolve, 1200));
 
-    // array from 1 to 7
     const randomData = Array(7).keys().toArray().map(i => {
         const timestamp = new Date();
         timestamp.setDate(timestamp.getDate() - (6 - i));
