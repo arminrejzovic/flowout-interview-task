@@ -1,10 +1,1 @@
 @import "tailwindcss";
-
-.oogabooga {
-    --bg: #f0f3f4;
-    --bar-to: #4dde59;
-    --bar-from: #baf3bf;
-    --growth-info-bg: #ddf7df;
-    --growth-info-text: #319e3b;
-    --dates-text: #8b8f98;
-}
