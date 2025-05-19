@@ -63,7 +63,7 @@ function calculateChange(previousTotal?: number, currentTotal?: number): number 
 function ChangeIndicator({change}: {change: number}) {
     if (change == 0) {
         return (
-            <div className={"flex items-center gap-2 bg-yellow-400 rounded-md px-2 py-1 text-yellow-600"}>
+            <div className={"flex items-center gap-2 bg-yellow-300 rounded-md px-2 py-1 text-yellow-600"}>
                 <p className={"text-sm font-medium sm:text-xl"}>{change}%</p>
                 <EqualApproximately/>
             </div>
@@ -71,7 +71,7 @@ function ChangeIndicator({change}: {change: number}) {
     }
     if(change < 0) {
         return (
-            <div className={"flex items-center gap-2 bg-red-400 rounded-md px-2 py-1 text-red-600"}>
+            <div className={"flex items-center gap-2 bg-red-300 rounded-md px-2 py-1 text-red-600"}>
                 <p className={"text-sm font-medium sm:text-xl"}>{change}%</p>
                 <ArrowDownRight/>
             </div>
