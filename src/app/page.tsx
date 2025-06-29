@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
         <nav className={"h-16 flex items-center justify-between p-6 bg-purple-600 font-bold text-white"}>
-            Test Task
+            Tester Task
             <Link href="https://github.com/arminrejzovic/flowout-interview-task" target={"_blank"}>
                 <FolderGit2/>
             </Link>
